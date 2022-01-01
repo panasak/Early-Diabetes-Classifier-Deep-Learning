@@ -1,5 +1,5 @@
 # Early Diabetes Classifier: Project Overview
-This project uses artificial neural networks from Keras API to predict whether individuals show early sign of diabetes or not based on their charateristics.
+This project uses artificial neural networks from Keras API to predict whether individuals show early sign of diabetes or not based on their characteristics.
 * Create a tool that predict whether individuals will get diabetes or not 
 * Optimized Keras classifier to reach the best model
 ## Code and Resources Used
