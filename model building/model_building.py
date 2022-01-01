@@ -13,4 +13,6 @@ df = df.drop(['tconst','primaryTitle','originalTitle','endYear','runtimeMinutes'
 
 df = df[df['startYear'] != '\\N']
 
-df['genres'].apply(lambda x : x.split(','))
+df['genres']= df['genres'].apply(lambda x : x.split(','))
+
+pd.get_dummies(df['genres'].apply(pd.Series).stack()).sum(level=0)
